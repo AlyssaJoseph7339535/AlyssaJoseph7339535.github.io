@@ -31,7 +31,11 @@ $(function () {
 
 
     // TODO 2 - Create Platforms
-
+createPlatform(500,600,150,19)
+createPlatform(300,400,120,20)
+createPlatform(600,300,140,14)
+createPlatform(400,200,130,30)
+createPlatform(100,300,134,34)
 
 
 
@@ -41,7 +45,10 @@ $(function () {
 
     
     // TODO 4 - Create Cannons
-
+    git addEventListener. 
+    git CustomElementRegistry
+    git push 
+    
 
     
     
