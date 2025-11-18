@@ -89,7 +89,7 @@
 
 
 
-                
+
         }
 
         /**
@@ -101,9 +101,11 @@
          */
         function handleBoxClick() {
        positionX = 0
+       if(positionX > boardWidth){
        changeBoxText(points)
                 points = points + 1
         speed = speed + 3
+        speed = speed* -1
         }
 
 
