@@ -53,7 +53,7 @@
 
         // Every time the box is clicked, call the handleBoxClick Function (see below)
         box.on("click", handleBoxClick);
-
+       speed = 3* points + 10    
         // moves the Box to a new position on the screen along the X-Axis
         function moveBoxTo(newPositionX) {
           box.css("left", newPositionX);
@@ -83,7 +83,10 @@
         function update() {
        positionX = positionX + speed;
                 moveBoxTo(positionX)
+         if(positionX < 0){
 
+          speed *= -1
+         }
 
 
 
